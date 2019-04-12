@@ -152,35 +152,101 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Typora编辑语法" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2019/04/12/hello-world/">Hello World</a>
+      <a class="article-title" href="/2019/04/12/Typora编辑语法/">Typora编辑语法</a>
     </h1>
   
 
         
-        <a href="/2019/04/12/hello-world/" class="archive-article-date">
-  	<time datetime="2019-04-12T03:11:52.394Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-12</time>
+        <a href="/2019/04/12/Typora编辑语法/" class="archive-article-date">
+  	<time datetime="2019-04-12T06:26:30.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-12</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <p>Typora 编辑语法</p>
+<p>1.代码</p>
+<p>A：使用`包裹的内容将会以代码样式显示，例如</p>
+<p><code>print()</code></p>
+<p>B：输入<code>~~~</code>或者<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">```java</span><br><span class="line">public class HelloWorld&#123;</span><br><span class="line">    System.out.println(&quot;Hello World&quot;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="string">"Hello Python"</span>)</span><br></pre></td></tr></table></figure>
+<p>2.文本</p>
+<p>A：使用#设置标题</p>
+<h1 id="hello-world"><a href="#hello-world" class="headerlink" title="hello world"></a>hello world</h1><h2 id="hello-world-1"><a href="#hello-world-1" class="headerlink" title="hello world"></a>hello world</h2><p>B：列表，输入+，-，*创建无序的列表，使用任意数字开头创建有序的列表</p>
+<p><strong>无序</strong></p>
+<ul>
+<li>使用-表示<ul>
+<li>二级列表，使用+<ul>
+<li>三级列表，使用*</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>有序列表，直接使用数字即可</strong></p>
+<ol>
+<li>王者农药</li>
+<li>阴阳师</li>
+<li>连连看</li>
+</ol>
+<p>C：块引用，使用&gt;插入块引用</p>
+<blockquote>
+<p>这是一个块引用</p>
+</blockquote>
+<p>D：使用两个*或者_包裹的内容会被强调</p>
+<p><strong>使用*强调</strong></p>
+<p><strong>使用_下划线</strong></p>
+<p>你干啥呢<strong>带我啊</strong></p>
+<p>E：水平分割线</p>
+<p>​    使用***或者—，然后回车，产生水平分割线</p>
+<hr>
+<p>F：图片，可以使用拖拽的方式</p>
+<p><img src="C:\Ruby\ruby.jpeg" alt="ruby"></p>
+<p> G：表格，使用|</p>
+<table>
+<thead>
+<tr>
+<th>姓名</th>
+<th style="text-align:center">性别</th>
+<th>毕业学校</th>
+<th style="text-align:right">工资</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>杨洋</td>
+<td style="text-align:center">男</td>
+<td>重庆交通大学</td>
+<td style="text-align:right">3200</td>
+</tr>
+<tr>
+<td>风格</td>
+<td style="text-align:center">女</td>
+<td>北京大学</td>
+<td style="text-align:right">4600</td>
+</tr>
+<tr>
+<td>王二狗</td>
+<td style="text-align:center">男</td>
+<td>清华大学</td>
+<td style="text-align:right">5600</td>
+</tr>
+</tbody>
+</table>
+<p>H：插入URL链接，使用尖括号包裹url将会产生一个链接</p>
+<p><a href="http:\\www.baidu.com" target="_blank" rel="noopener">http:\\www.baidu.com</a></p>
+<p><a href="http:\\www.baidu.com" target="_blank" rel="noopener">百度</a></p>
+<p>I：标注，对某一个词语进行标注</p>
+<p>某些人用过了才知道[^注释]</p>
+<p>[^注释]: Somebody that I used to know.</p>
 
       
 
@@ -193,7 +259,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2019/04/12/hello-world/">展开全文 >></a>
+          <a class="article-more-a" href="/2019/04/12/Typora编辑语法/">展开全文 >></a>
         </p>
       
 
