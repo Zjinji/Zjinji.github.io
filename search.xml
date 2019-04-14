@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[安装并配置Linux集群（基于CentOS）]]></title>
     <url>%2F2019%2F04%2F14%2F01-%E5%AE%89%E8%A3%85%E5%B9%B6%E9%85%8D%E7%BD%AELinux%E9%9B%86%E7%BE%A4%2F</url>
-    <content type="text"><![CDATA[安装Linux集群下载合适的Linux版本创建空白虚拟机容器打开创建虚拟机向导创建典型虚拟机安装客户机操作系统选择客户机操作系统命名虚拟机指定磁盘容量容器准备就绪安装系统指定CentOS 6.8镜像启动虚拟机并安装系统配置虚拟机的硬件资源配置Linux集群]]></content>
+    <content type="text"><![CDATA[安装Linux集群本集群主要用于大数据作业实验调试。 下载合适的Linux版本在执行如下步骤之前，尽量确保你的计算机已经开启了虚拟化支持。 文章中的Linux版本为CentOS。Linux的发行版本有很多，选择任意的Linux发行版均可，但尽量确保一致，这样会尽可能的减少操作过程中可能出现的问题。 提示： 文章将以CentOS 6.8为例，目前最新版本是CentOS 7.x，直观来讲，这两个版本在配置文件与命令操作上存在一些差异。 在此附上CentOS 6.8的下载页面： 下载页面 来到该页面后，选择 CentOS-6.8-x86_64-bin-DVD1.iso项，右键下载即可，如图所示。 创建空白虚拟机容器打开创建虚拟机向导创建典型虚拟机安装客户机操作系统选择客户机操作系统命名虚拟机指定磁盘容量容器准备就绪安装系统指定CentOS 6.8镜像启动虚拟机并安装系统配置虚拟机的硬件资源配置Linux集群]]></content>
       <categories>
         <category>大数据</category>
         <category>Linux</category>
@@ -11,18 +11,6 @@
       <tags>
         <tag>大数据</tag>
         <tag>虚拟机</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Typora编辑语法]]></title>
-    <url>%2F2019%2F04%2F12%2FTypora%E7%BC%96%E8%BE%91%E8%AF%AD%E6%B3%95%2F</url>
-    <content type="text"><![CDATA[Typora 编辑语法 1.代码 A：使用`包裹的内容将会以代码样式显示，例如 print() B：输入~~~或者12345```javapublic class HelloWorld&#123; System.out.println(&quot;Hello World&quot;);&#125; 1print("Hello Python") 2.文本 A：使用#设置标题 hello worldhello worldB：列表，输入+，-，*创建无序的列表，使用任意数字开头创建有序的列表 无序 使用-表示 二级列表，使用+ 三级列表，使用* 有序列表，直接使用数字即可 王者农药 阴阳师 连连看 C：块引用，使用&gt;插入块引用 这是一个块引用 D：使用两个*或者_包裹的内容会被强调 使用*强调 使用_下划线 你干啥呢带我啊 E：水平分割线 ​ 使用***或者—，然后回车，产生水平分割线 F：图片，可以使用拖拽的方式 G：表格，使用| 姓名 性别 毕业学校 工资 杨洋 男 重庆交通大学 3200 风格 女 北京大学 4600 王二狗 男 清华大学 5600 H：插入URL链接，使用尖括号包裹url将会产生一个链接 http:\\www.baidu.com 百度 I：标注，对某一个词语进行标注 某些人用过了才知道[^注释] [^注释]: Somebody that I used to know.]]></content>
-      <categories>
-        <category>大数据</category>
-      </categories>
-      <tags>
-        <tag>大数据</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
 </search>
